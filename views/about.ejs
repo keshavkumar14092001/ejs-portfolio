@@ -1,0 +1,43 @@
+<!-- views/about.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSaili</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <%- include('./partials/header') %>
+
+    <section class="homeSection">
+      <div class="homeContainer">
+        <div class="homeContainerContent">
+          <div>
+            <p class="firstP">Hi, my name is</p>
+            <h1>Jatin Saili</h1>
+            <h2>I'm a Full Stack Developer.</h2>
+            <p class="secondP">
+              I'm a full-stack developer with expertise in building
+              comprehensive websites. I possess a deep understanding of both
+              front-end and back-end technologies. With my skill set, I can
+              develop high-quality websites that offer seamless user
+              experiences, robust functionality, and scalable architecture. From
+              designing the user interface to developing the database and
+              server-side logic, I have the experience and expertise to create
+              custom solutions that meet clients' needs. Whether it's creating a
+              simple landing page or a complex web application, I have the
+              skills and experience to bring your project to life.
+            </p>
+            <a class="homeBtn" href="/images/cv.pdf" download>See My Resume</a>
+          </div>
+        </div>
+        <div class="homeContainerImage">
+          <img src="/images/mainPic.jpg" alt="loading" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <%- include('./partials/footer') %>
+  </body>
+</html>

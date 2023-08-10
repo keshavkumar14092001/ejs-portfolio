@@ -1,0 +1,42 @@
+<!-- views/projects.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSaili</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <%- include('./partials/header') %>
+
+    <section class="projectsSection">
+      <h1>Projects</h1>
+      <p>Project's that I have worked on.</p>
+      <div class="projectWrapper">
+        <div class="projectContainer">
+          <div class="cards">
+            <div>
+              <img src="/images/videoStreaming.jpg" alt="loading" />
+            </div>
+            <h1>Video Streaming Website</h1>
+          </div>
+          <div class="cards">
+            <div>
+              <img src="/images/e-commerce.jpg" alt="loading" />
+            </div>
+            <h1>E-Commerce Website</h1>
+          </div>
+          <div class="cards">
+            <div>
+              <img src="/images/crypto_app.jpg" alt="loading" />
+            </div>
+            <h1>Crypto Website</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <%- include('./partials/footer') %>
+  </body>
+</html>
